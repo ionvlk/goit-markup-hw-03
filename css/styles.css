@@ -39,7 +39,7 @@ body {
     color: var(--textcolor);
 }
 
-.main-header {
+header {
     border-bottom: 1px solid #ECECEC;
 }
 
@@ -282,13 +282,11 @@ header .logo {
 }
 .item .photo {
     display: block;
-    margin-bottom: 30px;
     border-radius: 0px;
 }
 
 .team .item {
     background-color: var(--background);
-    text-align: center;
     width: 270px;
     margin-right: 30px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -312,14 +310,18 @@ header .logo {
 }
 
 .team .position {
-    
     margin: 0;
-    padding-bottom: 30px;
     /*outline: 2px solid blue;*/
-
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em
+}
+
+.item .badge {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+
 }
 /*footer*/
 .footer {
